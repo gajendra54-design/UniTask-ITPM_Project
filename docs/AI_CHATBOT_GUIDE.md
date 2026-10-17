@@ -252,8 +252,7 @@ import { AIAssignmentChatbot } from "../../components/AIAssignmentChatbot";
 ## 📚 Related Files
 
 - [Assignments Page](../../frontend/src/pages/assignments/Assignments.jsx)
-- [Priority Tracking Setup](../../docs/PRIORITY_TRACKING_SETUP.md)
-- [Implementation Checklist](../../docs/IMPLEMENTATION_CHECKLIST.md)
+- [Project setup and features](../README.md)
 
 ## 🚀 Deployment Notes
 

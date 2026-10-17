@@ -1,1 +1,0 @@
-commit and pull them into main project under Lochana720 github account beacuase lochana-branch is under it. i can click pul request and merge it give me discription for commit

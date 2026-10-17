@@ -127,7 +127,7 @@ frontend/
  docs/                Feature designs and business rules
 ```
 
-Additional planning and implementation notes in the root are retained as project history. They may describe earlier versions; use the source code and this README for current setup.
+Use this README for current setup and the feature documentation in `docs/` for design context. Historical planning notes and presentation drafts are available in Git history.
 
 ## API overview
 

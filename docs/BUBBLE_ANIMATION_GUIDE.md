@@ -190,7 +190,7 @@ Add to JSX and CSS:
 
 - [Priority Tracking Page](../../frontend/src/pages/PriorityTracking.jsx)
 - [AI Chatbot Guide](../../docs/AI_CHATBOT_GUIDE.md)
-- [Priority Tracking Setup](../../docs/PRIORITY_TRACKING_SETUP.md)
+- [Project setup and features](../README.md)
 
 ## 🚀 Deployment Notes
 
