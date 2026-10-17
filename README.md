@@ -150,3 +150,13 @@ Routes are mounted below `/api`: `auth`, `assignments`, `subtasks`, `calendar`, 
 - [Resource hub design](docs/RESOURCE_HUB_DESIGN.md)
 - [AI chatbot guide](docs/AI_CHATBOT_GUIDE.md)
 - [Skills analysis module](backend/skills-analysis/README.md)
+
+---
+
+## 📧 Contact
+
+contributors - Lochana Chandira , Nipuna Lakmal , Nirwan , D.M.G. Dissanayake
+
+For questions or feedback about this academic project, please open an issue in the repository.
+
+---
