@@ -1,0 +1,21 @@
+I've summarized the remaining tasks into a professional and concise "viva-ready" answer. You can use these specific points when the lecturer asks about your current progress and what's left.
+
+🎯 Presentation Answer: Remaining Tasks
+"We have achieved approximately 80% functionality across the core modules (Calendar, Priority Tracking, and Resource Hub). The final 20% of development is focused on three main areas:"
+
+Notification & Engagement Layer:
+
+Implementing real-time Dashboard Toast Alerts for urgent subtasks.
+Finalizing the SendGrid Email Reminder system for automated deadline warnings.
+Advanced Analytics & Data Sync:
+
+Completing the Task completion trend charts to visualize student progress over time.
+A final refactor of the Calendar state management to ensure 100% backend synchronization (removing legacy localStorage baggage).
+UI Refinement & Edge Cases:
+
+Adding specialized visual badges for Study Group meetings within the calendar views.
+Finalizing unit testing coverage to ensure robustness under high workload scenarios (the 8h/3-task limit).
+💡 Pro-Tip for the Presentation:
+If they ask why these are still remaining, you can say:
+
+"We prioritized the core logic, integration between modules, and the complex priority algorithm first. These remaining items are the 'polish and alert' layer designed to enhance the user experience and ensure long-term reliability."

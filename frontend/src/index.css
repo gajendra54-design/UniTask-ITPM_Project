@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+
+    --radius: 0.75rem;
+  }
+}
+
+/* Custom styles for react-big-calendar toolbar */
+.rbc-toolbar button {
+  color: #4b5563 !important;
+  border-color: #e5e7eb !important;
+  background-color: #ffffff !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #f3f4f6 !important;
+  color: #1f2937 !important;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+  border-color: #2563eb !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.rbc-toolbar button.rbc-active:hover {
+  background-color: #1d4ed8 !important;
+  color: #ffffff !important;
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button:focus {
+  outline: none !important;
+  background-color: #eff6ff !important;
+  color: #2563eb !important;
+  border-color: #bfdbfe !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+}
+
+.rbc-toolbar button.rbc-active:focus {
+  background-color: #1d4ed8 !important;
+  color: #ffffff !important;
+  border-color: #1d4ed8 !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+}
+
+/* Bold blue outline around the entire calendar only */
+.rbc-calendar {
+  border: 2px solid #3b82f6 !important;
+  border-radius: 0.5rem;
+  padding: 4px;
+}
+
+/* Hide empty all-day section */
+.rbc-allday-cell { display: none !important; }
+
+/* 3D Flip Card Utilities */
+.perspective-\[1000px\] {
+  perspective: 1000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
